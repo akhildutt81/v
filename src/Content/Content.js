@@ -10,6 +10,9 @@ const Content=({options})=>{
   if(options===2){
     return (<div>Goodreads</div>);
   }
+  if(options===3){
+    return (<div>Codeforces</div>);
+  }
 }
 
 export default Content;

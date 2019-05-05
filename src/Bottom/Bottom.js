@@ -19,6 +19,7 @@ class Bottom extends Component {
         <div className='toolbaritems'>
           <label onClick={()=>this.cl(1)}>Stackoverflow</label>
           <label onClick={()=>this.cl(2)}>Goodreads</label>
+          <label onClick={()=>this.cl(3)}>Codeforces</label>
         </div>
         <div className='contentclass'>
           <Content options={this.state.options}></Content>
