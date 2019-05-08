@@ -15,7 +15,7 @@ class Bottom extends Component {
   }
   render(){
     return (
-      <div className='total'>
+      <div className='total' style={{marginTop:'5%'}}>
         <div className='toolbaritems'>
           <label onClick={()=>this.cl(1)}>Stackoverflow</label>
           <label onClick={()=>this.cl(2)}>Goodreads</label>

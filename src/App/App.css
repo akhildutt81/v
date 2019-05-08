@@ -8,6 +8,8 @@
   border-bottom: 2px solid black; 
   padding-top: 0.5rem;
   padding-bottom: 0.6rem;
+  position:fixed;
+  opacity:1;
 }
 .toolbar1logo a{
   color:#73818f;
